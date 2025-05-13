@@ -227,6 +227,69 @@ header {
     }
 }
 
+.fincas {
+    background-color: #f4f4f4;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+/* Encabezado con separador elegante */
+.separador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.separador hr {
+    flex: 1;
+    border: none;
+    height: 2px;
+    background-color: #2e7d32;
+    opacity: 0.6;
+}
+
+.separador h2 {
+    font-size: 2rem;
+    color: #2e7d32;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.finca {
+    margin-bottom: 2rem;
+}
+
+.finca h3 {
+    font-size: 1.8rem;
+    color: #2e7d32;
+    margin-bottom: 1rem;
+}
+
+.finca p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 1.5rem;
+}
+
+.finca img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+    .finca img {
+        max-width: 100%;
+    }
+}
+
 /* Estilos del Footer */
 .footer {
     background-color: #2e7d32;
@@ -319,4 +382,73 @@ header {
         justify-content: center;
         gap: 1rem;
     }
+}
+
+
+
+/* Animación de desvanecimiento para el texto */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animación de desvanecimiento para las cartas */
+@keyframes cardFadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Animación de deslizamiento para el collage de imágenes */
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Estilos con animaciones */
+.hero h1 {
+    animation: fadeIn 1.5s ease-out;
+}
+
+.hero p {
+    animation: fadeIn 2s ease-out;
+}
+
+.card {
+    animation: cardFadeIn 1s ease-out;
+}
+
+/* Añadir la animación para el collage */
+.collage-item {
+    animation: slideIn 1s ease-out;
+
+    animation-delay: 0.5s;
+}
+
+.collage-item:nth-child(2) {
+    animation-delay: 0.7s;
+}
+
+.collage-item:nth-child(3) {
+    animation-delay: 0.9s;
 }
