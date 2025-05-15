@@ -5,15 +5,16 @@
     <meta name="google-site-verification" content="9YjS_PWOAZh-ch-dsMrgxhyL2atxSem_JY2VNB1AJcM" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="styleV2.css">
+
     <title>Agricola Trinidad-Agricultura</title>
 </head>
+<a href="" class="whatsapp-float" target="_blank">💬</a>
 
 <body>
     <header>
         <nav class="navbar">
-            <div class="logo">AgriculaTrinidad</div>
+            <div class="logo">AgricolaTrinidad</div>
             <button class="hamburger" onclick="toggleMenu()">☰</button>
             <ul class="nav-links" id="navLinks">
                 <li><a href="index.html">Inicio</a></li>
@@ -23,6 +24,7 @@
             </ul>
         </nav>
     </header>
+
     <div class="overlay">
         <main class="hero">
             <h1>Agricola Trinidad</h1>
@@ -64,7 +66,52 @@
             </div>
         </div>
     </section>
+    <section class="galeria">
+        <h2 class="titulo-galeria">Descubre la calidad de nuestras cosechas</h2>
 
+        <div class="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+
+            <div class="slides">
+                <div class="slide s1">
+                    <img src="https://www.gob.mx/cms/uploads/article/main_image/144572/IMG_0373.JPG"
+                        alt="Tomate maduro">
+                </div>
+                <div class="slide s2">
+                    <img src="" alt="Cultivo de chile">
+                </div>
+                <div class="slide s3">
+                    <img src="img/finca.jpg" alt="Finca en Cervantes">
+                </div>
+            </div>
+
+            <!-- Flechas -->
+            <div class="navigation">
+                <label for="slide1" class="nav nav-1"></label>
+                <label for="slide2" class="nav nav-2"></label>
+                <label for="slide3" class="nav nav-3"></label>
+            </div>
+        </div>
+    </section>
+    <section class="testimonios">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="testimonial-container">
+            <blockquote class="testimonial">
+                "Agrícola Trinidad nos ha garantizado productos frescos y un servicio impecable."
+                <footer>- Jose Pérez</footer>
+            </blockquote>
+            <blockquote class="testimonial">
+                "Calidad y compromiso en cada entrega, ¡altamente recomendados!"
+                <footer>- María González</footer>
+            </blockquote>
+            <blockquote class="testimonial">
+                "Su dedicación y sostenibilidad marcan la diferencia en el mercado agrícola."
+                <footer>- Carlos Méndez</footer>
+            </blockquote>
+        </div>
+    </section>
     <section class="fincas">
         <div class="separador">
             <hr>
@@ -74,18 +121,45 @@
 
         <div class="finca">
             <h3>Orosi</h3>
-            <p>La finca en Orosi se encuentra en un entorno natural y fértil, <br> ideal para el cultivo de chile y tomate.
+            <p>La finca en Orosi se encuentra en un entorno natural y fértil, <br> ideal para el cultivo de chile y
+                tomate.
                 Con un clima perfecto para estos productos, trabajamos con técnicas <br> innovadoras para garantizar una
                 cosecha de calidad y una producción sostenible.</p>
-            
+
         </div>
 
         <div class="finca">
             <h3>Cervantes</h3>
             <p>En Cervantes, nuestras fincas están ubicadas en una región de alta montaña, <br> lo que permite un clima
-                fresco y húmedo, ideal para el crecimiento de nuestros cultivos. <br> Aquí trabajamos con procesos orgánicos
+                fresco y húmedo, ideal para el crecimiento de nuestros cultivos. <br> Aquí trabajamos con procesos
+                orgánicos
                 para asegurar productos de la más alta calidad, respetando el medio ambiente.</p>
-            
+
+        </div>
+    </section>
+
+    <section class="empacadora">
+        <div class="separador">
+            <hr>
+            <h2>Empacadora Principal</h2>
+            <hr>
+        </div>
+
+        <div class="empacadora-info">
+            <p>Ubicada estratégicamente en <strong>Cervantes de Cartago</strong>, nuestra empacadora y finca principal
+                es el corazón de nuestra operación.
+                Desde aquí realizamos el procesamiento, selección y empaque de nuestros productos, asegurando estándares
+                de calidad y frescura para su distribución a nivel nacional.</p>
+
+            <p>Gracias a un equipo capacitado y tecnología moderna, garantizamos que cada chile y
+                tomate que sale de nuestras instalaciones cumpla con los más altos niveles de inocuidad y sabor.</p>
+
+            <div class="empacadora-mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.4754672322!2d-83.7876817!3d9.894299399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0d9295a2dafd1%3A0xa71f735eaf18291c!2sEmpacadora%20Agr%C3%ADco
+            la%20La%20Trinidad%20S.A!5e0!3m2!1ses-419!2scr!4v1747329730897!5m2!1ses-419!2scr" width="100%" height="400"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </section>
 
@@ -110,7 +184,7 @@
             <div class="footer-right">
                 <h3>Contáctanos</h3>
                 <p>Email: contacto@agricolatrinidad.com</p>
-                <p>Teléfono: +1 (234) 567 890</p>
+                <p>Teléfono: 2534 7858</p>
                 <div class="social-media">
                     <a href="#" target="_blank">Facebook</a>
                     <a href="#" target="_blank">Instagram</a>
