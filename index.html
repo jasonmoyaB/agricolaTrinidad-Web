@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="google-site-verification" content="9YjS_PWOAZh-ch-dsMrgxhyL2atxSem_JY2VNB1AJcM" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleV2.css">
+
+    <title>Agricola Trinidad-Agricultura</title>
+</head>
+<a href="https://wa.me/50688888888numero" class="whatsapp-float" target="_blank">💬</a>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">AgricolaTrinidad</div>
+            <button class="hamburger" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="overlay">
+        <main class="hero">
+            <h1>Agricola Trinidad</h1>
+            <p>Innovación y sostenibilidad en cada cultivo</p>
+        </main>
+    </div>
+
+    <section class="MainCards">
+        <div class="card">
+            <h3>Producción Sostenible</h3>
+            <p>Aplicamos técnicas agrícolas modernas que respetan el medio ambiente y mejoran la productividad.</p>
+        </div>
+        <div class="card">
+            <h3>Control de Calidad</h3>
+            <p>Cada producto pasa por rigurosas pruebas para garantizar frescura y excelencia en cada cosecha.</p>
+        </div>
+        <div class="card">
+            <h3>Distribución Nacional</h3>
+            <p>Llegamos a todo el país con una logística eficiente y compromiso con nuestros clientes.</p>
+        </div>
+    </section>
+
+    <section class="productos">
+        <h2>¿A qué nos dedicamos?</h2>
+        <p>En Agricola Trinidad nos especializamos en la producción de <strong>chile</strong> y <strong>tomate</strong>,
+            dos de los productos más demandados en el mercado agrícola nacional.<br> A través de procesos sostenibles y
+            de alta calidad, cultivamos estos productos para ofrecer lo mejor a nuestros clientes.<br> Trabajamos para
+            garantizar frescura, sabor y nutrición en cada cosecha.</p>
+
+        <!-- Mini Collage -->
+        <div class="collage">
+            <div class="collage-item">
+                <img src="https://walmartcr.vtexassets.com/arquivos/ids/530155/Chile-Dulce-Hortifruti-Empacado-En-Malla-3-unidades-2-68300.jpg?v=638419992259870000"
+                    alt="Chile Dulce" />
+            </div>
+            <div class="collage-item">
+                <img src="https://semillasysemillas.com/wp-content/uploads/2017/07/TOMATE-Santa-Clara.png"
+                    alt="Tomate Santa Clara" />
+            </div>
+        </div>
+    </section>
+    <section class="galeria">
+        <h2 class="titulo-galeria">Descubre la calidad de nuestras cosechas</h2>
+        <div class="carousel-container">
+            <button class="carousel-btn prev" onclick="moveSlide(-1)">❮</button>
+            <div class="carousel">
+                <div class="carousel-item"><img src="img/foto1.jpeg"
+                        alt="Tomate maduro"></div>
+                <div class="carousel-item"><img src="img/foto4.jpeg"
+                        alt="Cultivo de chile"></div>
+                <div class="carousel-item"><img src=""
+                        alt="Finca en Cervantes"></div>
+            </div>
+            <button class="carousel-btn next" onclick="moveSlide(1)">❯</button>
+        </div>
+    </section>
+
+    <section class="testimonios">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="testimonial-container">
+            <blockquote class="testimonial">
+                "Agrícola Trinidad nos ha garantizado productos frescos y un servicio impecable."
+                <footer>- Jose Pérez</footer>
+            </blockquote>
+            <blockquote class="testimonial">
+                "Calidad y compromiso en cada entrega, ¡altamente recomendados!"
+                <footer>- María González</footer>
+            </blockquote>
+            <blockquote class="testimonial">
+                "Su dedicación y sostenibilidad marcan la diferencia en el mercado agrícola."
+                <footer>- Carlos Méndez</footer>
+            </blockquote>
+        </div>
+    </section>
+    <section class="fincas">
+        <div class="separador">
+            <hr>
+            <h2>Nuestras Fincas</h2>
+            <hr>
+        </div>
+
+        <div class="finca">
+            <h3>Orosi</h3>
+            <p>La finca en Orosi se encuentra en un entorno natural y fértil, <br> ideal para el cultivo de chile y
+                tomate.
+                Con un clima perfecto para estos productos, trabajamos con técnicas <br> innovadoras para garantizar una
+                cosecha de calidad y una producción sostenible.</p>
+
+        </div>
+
+        <div class="finca">
+            <h3>Cervantes</h3>
+            <p>En Cervantes, nuestras fincas están ubicadas en una región de alta montaña, <br> lo que permite un clima
+                fresco y húmedo, ideal para el crecimiento de nuestros cultivos. <br> Aquí trabajamos con procesos
+                orgánicos
+                para asegurar productos de la más alta calidad, respetando el medio ambiente.</p>
+
+        </div>
+    </section>
+
+    <section class="empacadora">
+        <div class="separador">
+            <hr>
+            <h2>Empacadora Principal</h2>
+            <hr>
+        </div>
+
+        <div class="empacadora-info">
+            <p>Ubicada estratégicamente en <strong>Cervantes de Cartago</strong>, nuestra empacadora y finca principal
+                es el corazón de nuestra operación.
+                Desde aquí realizamos el procesamiento, selección y empaque de nuestros productos, asegurando estándares
+                de calidad y frescura para su distribución a nivel nacional.</p>
+
+            <p>Gracias a un equipo capacitado y tecnología moderna, garantizamos que cada chile y
+                tomate que sale de nuestras instalaciones cumpla con los más altos niveles de inocuidad y sabor.</p>
+
+            <div class="empacadora-mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.4754672322!2d-83.7876817!3d9.894299399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0d9295a2dafd1%3A0xa71f735eaf18291c!2sEmpacadora%20Agr%C3%ADco
+            la%20La%20Trinidad%20S.A!5e0!3m2!1ses-419!2scr!4v1747329730897!5m2!1ses-419!2scr" width="100%" height="400"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="footer-logo">Agrícola Trinidad</div>
+                <p>&copy; 2025 Agricola Trinidad. Todos los derechos reservados.</p>
+            </div>
+
+            <div class="footer-middle">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-right">
+                <h3>Contáctanos</h3>
+                <p>Email: contacto@agricolatrinidad.com</p>
+                <p>Teléfono: 2534 7858</p>
+                <div class="social-media">
+                    <a href="#" target="_blank">Facebook</a>
+                    <a href="#" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
