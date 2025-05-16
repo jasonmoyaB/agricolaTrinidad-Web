@@ -80,9 +80,7 @@ header {
     background-color: #2e7d32;
     padding: 1rem 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
 }
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -244,6 +242,8 @@ header {
         gap: 1.5rem;
     }
 }
+
+
 .testimonios {
   background-color: #f9f9f9;
   padding: 40px 20px;

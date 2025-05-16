@@ -23,3 +23,6 @@ let currentIndex = 0;
     const translateX = -currentIndex * 100;
     carousel.style.transform = `translateX(${translateX}%)`;
   }
+  
+
+
