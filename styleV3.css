@@ -250,6 +250,7 @@ header {
 .galeria-visual {
     text-align: center;
     cursor: pointer;
+    height: 570px;
 }
 
 .titulo-galeria::after {
