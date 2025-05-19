@@ -5,13 +5,32 @@
     box-sizing: border-box;
 }
 
+/*whatssapp icono*/
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 30px;
+  background: #25d366;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 50%;
+  z-index: 100;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
 body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #f0f0f0;
     color: white;
+    
 }
 .overlay {
-    background-image: url('https://www.elfinancierocr.com/resizer/v2/MWKYS35EHJDMPBFF3RQJBNIFAQ.jpg?smart=true&auth=3ea3cb04de34c2171b4046d876141212e541cab84cda989eb422e3c975d403d3&width=1773&height=1182');
+    background-image: url('https://adleragro.com/wp-content/uploads/2022/02/Sin-t%C3%ADtulo-1080-%C3%97-1920-px-Poster-horizontal-1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -121,7 +140,69 @@ header {
         display: flex;
     }
 }
+.nosotros-historia {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+}
 
+.containerHistoria {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.containerHistoria h2 {
+    font-size: 2.2em;
+    text-align: center;
+    color: #2f2f2f;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.containerHistoria h2::after {
+    content: "";
+    display: block;
+    margin: 10px auto 0;
+    width: 120px; /* Más largo */
+    height: 4px;
+    background: linear-gradient(to right, #4CAF50, #81C784); 
+    border-radius: 10px;
+}
+
+.historia-contenido {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.historia-contenido img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.historia-contenido p {
+    flex: 1;
+    text-align: justify;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .historia-contenido {
+        flex-direction: column;
+    }
+
+    .historia-contenido img {
+        float: none;
+        margin: 0 auto 20px;
+        display: block;
+    }
+}
 
 
 
