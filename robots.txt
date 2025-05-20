@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://empacadora-agricola-trinidad.s3-website-us-east-1.amazonaws.com/sitemap.xml
